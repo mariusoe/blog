@@ -90,6 +90,8 @@ blockquote {
 // Code
 tt, code, kbd, samp, pre {
 	font-family: $code-font;
+	-moz-tab-size: 5;
+	tab-size: 5;
 }
 pre {
 	overflow-x: auto; // add scrollbars to wide code blocks
